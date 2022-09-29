@@ -1,15 +1,9 @@
-﻿/*
- * UART.c
- *
- * Created: 29/09/2022 02:23:09 م
- *  Author: user
- */ 
 #include "UART.h"
 
 USART_ConfigurationStruct USART0 = {0,
 	                                .RX_InterruptCall = NULL,
-									.TX_InterruptCall = NULL,
-									.UDR_InterruptCall = NULL
+					.TX_InterruptCall = NULL,
+					.UDR_InterruptCall = NULL
 									};
 void USART_Init(void)
 {
